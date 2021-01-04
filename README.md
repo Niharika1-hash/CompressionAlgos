@@ -1,5 +1,5 @@
 # LZW-Encoding
-INPUT: A .txt file containing some text(letters, special characters, linespces, whitespaces etc, that one wishes to encode using LZW technique. The file path/file location must be known.
+INPUT: A .txt file containing some text (letters, special characters, linespces, whitespaces etc) that one wishes to encode using LZW technique. The file path/file location must be known.
 
 OUTPUT: The encoded version of the text input from the input file and total time taken for the encoding operation in nanoseconds.
 
