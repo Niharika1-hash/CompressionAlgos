@@ -1,8 +1,19 @@
+/*
+ Name:-    Niharika Poddar
+ Date:-    1st Jan, 2021
+ Project:- LZW Encoding Algorithm
+	
+ PROGRAM TO DEMONSTRATE LZW ENCODING
+ INPUT: .txt file (containing Input String to be encoded)
+ OUTPUT: .txt file that contains the encoded version of Input, also the time taken for the entire input file to be encoded in nanoseconds.
+ */
+
+
 import java.io.*;
 
 import java.util.*;
 
-//LZW
+
 public class Main 
 {
 	static Vector<Integer> encoding (String input)
@@ -16,15 +27,7 @@ public class Main
 			dict.put(c, i);
 	    }
 		
-		/*Set<String> keys = dict.keySet();
-		Iterator<String> i = keys.iterator();
-		Collection<Integer> getValues = dict.values();
-	    Iterator<Integer> j = getValues.iterator();
-	    
-	    while(i.hasNext())
-	    {
-	    	System.out.println(i.next()+" "+j.next());
-	    }*/
+		
 	    String p = "";
 	    String c = "";
 	    p+=input.charAt(0);
